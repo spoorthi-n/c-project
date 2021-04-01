@@ -1,5 +1,5 @@
 #include <stdio.h>
-  fact()
+  fact1()
 {
   int i, Number; 
   long Factorial = 1;
