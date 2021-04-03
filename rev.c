@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
  
-reverse()
+rev1()
 {
   	char Str[100];
   	int i, len;
