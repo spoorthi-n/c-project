@@ -3,5 +3,5 @@ void main()
 {	
 	biggest();
 	fact1();
-	rev1();
+	reverse();
 }
