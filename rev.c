@@ -1,21 +1,20 @@
-#include <stdio.h>
-#include <string.h>
- 
+#include<stdio.h>
+
 rev1()
 {
-  	char Str[100];
-  	int i, len;
- 
-  	printf("\n Please Enter any String :  ");
-  	gets(Str);
-  	
-  	len = strlen(Str);
-  	
- 	printf("\n String after Reversing : "); 
-  	for (i = len - 1; i >= 0; i--)
-  	{
-  		printf("%c", Str[i]);
-  	}
+    int n, reverse = 0;    
+    printf("Enter a number to reverse\n");    
+    scanf("%d",&n);
 
- 	//return 0;
-}
+    while (n != 0)
+    {
+        reverse = reverse * 10;
+        
+        reverse = reverse + n%10;
+        
+        n = n/10;
+    }
+
+    printf("Reverse of entered number is = %d\n", reverse);    
+    return 0;
+
