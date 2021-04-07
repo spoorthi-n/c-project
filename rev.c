@@ -3,7 +3,7 @@
 rev1()
 {
     int n, reverse = 0;    
-    printf("Enter a number to reverse\n");    
+    printf(" Enter a number to reverse\n");    
     scanf("%d",&n);
 
     while (n != 0)
